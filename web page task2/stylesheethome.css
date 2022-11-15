@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+  }
+  
+  html{
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rm;
+  }
+
+  body{
+    background-color: rgb(233, 233, 201);
+   
+   
+  }
+
+  .header{
+    position:fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 9%;
+    background: rgb(73, 73, 72);
+ 
+   
+  }
+
+  .header .nav-bar a{
+    font-size: 1.2rem;
+    margin-left: 0 1rem;
+    color:white;
+  }
+
+  .header .nav-bar a:hover{
+    color:hwb(47 0% 0%);
+  }
+  .header .icons div {
+height:1.2rem;
+width:1.2rem;
+line-height: 1.2rem;
+border-radius: 1.2rem;
+font-size: 1.2rem;
+margin-right: 2rem;
+text-align: center;
+color: hwb(47 0% 0%);
+  } 
+  .header .icons div :hover {
+    background:  hwb(47 0% 0%);
+    color: white;
+      } 
+  .header .search-form{
+    position: absolute;
+    top: 110%; right: 2rem;
+    width: 30rem;
+    height: 5rem;
+    border-radius: .5rem;
+    background: rgb(73, 73, 72);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .header .search-form input{
+height: 100%;
+width: 100%;
+background: white;
+text-transform: none;
+font-size: 1.6;
+color:rgb(73, 73, 72);
+padding: 0.1rem;
+  }
+  .header .search-form label{
+    font-size: 2.2rem;
+    padding: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  .header .search-form label:hover{
+    color:white;
+
+  }
+
+  .header .nav-bar ul {
+    float: left;
+  }
+  .header .nav-bar ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+  }
+  .header .nav-bar ul li a {
+    display: block;
+    padding: 22px 14px;
+    text-decoration: none;
+
+  }
+  .header .nav-bar ul li ul {
+    display: none;
+   position: absolute;
+background-color: rgb(73, 73, 72) ;
+padding: 10px;
+border-radius: 0px 0px 4px 4px;
+  }
+  .header .nav-bar ul li:hover ul {
+    display: block;
+
+  }
+  .header .nav-bar ul li ul li {
+    width: 80px;
+    border-radius: 4px;
+  }
+  .header .nav-bar ul li ul a {
+    padding: 10px 14px;
+  }
+  .header .nav-bar ul li ul a:hover {
+    background:grey ;
+
+  }
